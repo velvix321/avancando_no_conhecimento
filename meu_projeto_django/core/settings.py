@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tarefas', #app novo serve para que o django saiba que tem existe um app
+    'rest_framework',
+    'tarefas',
 ]
 
 MIDDLEWARE = [
